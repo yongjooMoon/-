@@ -1,0 +1,9 @@
+n = int(input())
+data = list(map(int, input().split()))
+
+sort = sorted(data)
+sort.reverse()
+# result = []
+for i in data:
+  # sort.index(i)
+  print(i, sort.index(i) + 1)
